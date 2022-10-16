@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+:root{
+    --font1: Verdana, 'Geneva', Tahoma, sans-serif;
+    --font2: 'Passion One', 'cursive';
+    --font3: 'Sriracha', cursive;
+
+
+}
+html, body{
+    background-color: darkgray;
+    min-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+    
+   
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--font2);
+    font-weight: normal;
+    font-size: 4em;
+}
+
+
+header > p{
+    padding-bottom: 50px;
+    color: white;
+    font-weight: lighter;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--font3);
+    
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.imagem{
+    background-color: rgba(0, 0, 0, 0.445);
+    color: white;
+    box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.596);
+
+}
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.575);
+    width: 400px;
+    padding-left: 8px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.596);
+
+}
+section#imagem-01{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    background-attachment: fixed;
+
+}
+section#imagem-02{
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
+    background-attachment: fixed;
+
+}
+section >p{
+    padding-bottom: 2em;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    font-size: 1em;
+    font-variant: small-caps;
+}
+
